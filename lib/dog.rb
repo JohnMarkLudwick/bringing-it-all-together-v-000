@@ -10,10 +10,12 @@ class Dog
   # end
   
   attr_accessor :name, :breed
+  attr_reader :id
 
   def initialize(params = {})
     @name = params.fetch(:name, "")
     @breed = params.fetch(:breed, "")
+    @id=nil
   end
   
   
