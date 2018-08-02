@@ -12,8 +12,8 @@ class Dog
   attr_accessor :name, :breed
 
   def initialize(params = {})
-    @name = params.fetch(:name, ?)
-    @breed = params.fetch(:breed, ?)
+    @name = params.fetch(:name, "")
+    @breed = params.fetch(:breed, "")
   end
   
   
