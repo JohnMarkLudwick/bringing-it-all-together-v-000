@@ -38,7 +38,6 @@ class Dog
   
   def save
     Dog.new(row[0], row[1], row[3])
-    new_dog
   end
   
   
