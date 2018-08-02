@@ -37,7 +37,7 @@ class Dog
   end
   
   def save
-    
+    Dog.new
   end
   
   
