@@ -36,8 +36,8 @@ class Dog
     DB[:conn].execute(sql) 
   end
   
-  def save
-    Dog.new
+  def save(row)
+    Dog.new(row[0], row[1], row[3])
   end
   
   
