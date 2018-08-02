@@ -37,7 +37,7 @@ class Dog
   end
   
   def save
-    self.(:name, :breed, @id)
+  
   end
   
   
